@@ -6,4 +6,23 @@
     <string name="day">Day</string>
     <string name="week">Week</string>
     <string name="month">Month</string>
+    <string name="weather_for_day_week_and_month">weather for day, week and month</string>
+    <string name="error">HTTP 404</string>
+    <string name="repeat">Repeat</string>
+    <string name="today">Today</string>
+    <string name="seven_days">Seven days</string>
+    <string name="bishkek_example">Bishkek</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="weather">Scattered Clouds</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="humidity">Humidity</string>
+    <string name="sunset_time_example">19:29</string>
+    <string name="sunrise_time_example">06:41</string>
+    <string name="wind_speed_example">3km/h</string>
+    <string name="speed">"km/h"</string>
+    <string name="celcius">°C</string>
+    <string name="humidity_example">75%</string>
+    <string name="tem_example">27°C</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="the_day_after_tomorrow">The day after tomorrow</string>
 </resources>

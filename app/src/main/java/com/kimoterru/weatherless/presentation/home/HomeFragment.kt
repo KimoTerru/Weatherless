@@ -10,7 +10,6 @@ import by.kirich1409.viewbindingdelegate.viewBinding
 import com.google.android.material.tabs.TabLayoutMediator
 import com.kimoterru.weatherless.R
 import com.kimoterru.weatherless.databinding.FragmentHomeBinding
-import com.kimoterru.weatherless.presentation.home.calendarscreens.HomePageAdapter
 
 class HomeFragment : Fragment() {
 
@@ -36,9 +35,8 @@ class HomeFragment : Fragment() {
             pageName, homePager
         ) { tab, position ->
             tab.text = when(position) {
-                0 -> getText(R.string.day)
-                1 -> getText(R.string.week)
-                2 -> getText(R.string.month)
+                0 -> getText(R.string.today)
+                1 -> getText(R.string.seven_days)
                 else -> null
             }
         }.attach()

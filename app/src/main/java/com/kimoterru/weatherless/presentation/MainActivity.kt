@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        setupMainScreen() // 809A4D
+        setupMainScreen()
     }
 
     private fun setupMainScreen() = with(binding) {
